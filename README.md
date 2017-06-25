@@ -4,6 +4,7 @@ até o controle financeiro, faturamento, recursos humanos, sistemas de compras i
 
 O foco desse sistema é fornecer facilidade ao usuário, com interação simples e rápida com um excelente grafico, onde o brilho do sistemas através do monitor não prejudique a visão do usuário, através da claridade oferecida pelo monitor onde o sistemas será em tons escuros. Com esses objetivos será desenvolvido um sistema de ERP com base em uma empresa de pequeno porte.
 
-A imagem abaixo é meramente ilustrativa, ela refere-se a uma IDE - ATOM. Porém o sistema ERP Conterá o sistema visual desta IDE, como cores, icones e algumas usabilidades.
+A imagem abaixo é meramente ilustrativa, ela refere-se a uma IDE - ATOM. Porém o sistema ERP Conterá o visual muito semelhante em cores, icones e também algumas formas de usabilidade e design desta IDE.
+
 
 <img src="https://github.com/rafaelcarvalhocaetano/ERP/blob/master/ERP-RRVH/src/img/imagem.png">
