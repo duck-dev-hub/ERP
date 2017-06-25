@@ -1,4 +1,4 @@
-Projeto ERP.
+### Projeto ERP.
 Mini sistema que envolve desde o sistema de cadastro dos colaboradores e visitante da empresa,
 até o controle financeiro, faturamento, recursos humanos, sistemas de compras integrando todas as áreas da empresa.
 
