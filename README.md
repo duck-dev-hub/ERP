@@ -6,5 +6,12 @@ O foco desse sistema é fornecer facilidade ao usuário, desde a usabilidade a i
 
 A imagem abaixo é meramente ilustrativa, ela refere-se a uma IDE - ATOM. Porém o sistema ERP Conterá o visual muito semelhante em cores, icones e também algumas formas de usabilidade e design desta IDE.
 
+### Contexto do software
+### Por que ?
+### Como será desenvolvidos
+### Investimento
+### O que será esperado
+
 
 <img src="https://github.com/rafaelcarvalhocaetano/ERP/blob/master/ERP-RRVH/src/img/imagem.png">
+
