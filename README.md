@@ -6,9 +6,8 @@ O foco desse sistema é fornecer facilidade ao usuário, desde a usabilidade a i
 
 A imagem abaixo é meramente ilustrativa, ela refere-se a uma IDE - ATOM. Porém o sistema ERP Conterá o visual muito semelhante em cores, icones e também algumas formas de usabilidade e design desta IDE.
 
-### Contexto do software
 ### Por que implanta-lo em sua empresa ?
-Este sistema canalizará todas as informações em forma de relatórios mensais ou semanais, disponibilizando uma balancete das atividades desenvolvidas que trará um melhor planejamento e revisão dos setores internos e externos.
+Este sistema canalizará todas as informações em forma de relatórios mensais ou semanais com o auxilio de gráficos, disponibilizando um balancete das atividades desenvolvidas que trará um melhor planejamento e revisão dos setores internos e externos.
 ### Como será desenvolvidos
 ### Investimento
 ### O que será esperado
