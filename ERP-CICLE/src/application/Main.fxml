@@ -6,6 +6,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.image.Image?>
 
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #21252b;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
@@ -14,12 +15,20 @@
         <menus>
           <Menu mnemonicParsing="false">
                <graphic>
-                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                  	<Image url="icones/file.png"/>
+                  </image>
+                  </ImageView>
                </graphic>
           </Menu>
             <Menu mnemonicParsing="false">
                <graphic>
-                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" focusTraversable="false"  preserveRatio="true">
+                  <image>
+                  	<Image url="icones/pessoas.png"/>
+                  </image>
+                  </ImageView>
                </graphic>
             </Menu>
             <Menu mnemonicParsing="false">
