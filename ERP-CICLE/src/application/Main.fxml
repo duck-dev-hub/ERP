@@ -12,12 +12,11 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.image.Image?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <VBox prefHeight="600.0" prefWidth="52.0" style="-fx-background-color: #FFF;">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="750.0" style="-fx-background-color: #21252b;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <left>
+      <VBox prefHeight="619.0" prefWidth="52.0" style="-fx-background-color: #FFF;">
          <children>
-            <ImageView fx:id="calc" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="calc" fitHeight="40.0" fitWidth="40.0" onMouseClicked="#t" pickOnBounds="true" preserveRatio="true">
                <VBox.margin>
                   <Insets bottom="10.0" left="5.0" top="10.0" />
                </VBox.margin>
@@ -25,7 +24,7 @@
                   <Image url="@../icones/calculadora.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="a" fitHeight="40.0" fitWidth="40.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                <VBox.margin>
                   <Insets bottom="10.0" left="5.0" top="10.0" />
                </VBox.margin>
@@ -99,6 +98,51 @@
             </ImageView>
          </children>
       </VBox>
-      <Pane layoutX="50.0" prefHeight="600.0" prefWidth="703.0" style="-fx-background-color: #21252b;" />
-   </children>
-</AnchorPane>
+   </left>
+   <center>
+      <AnchorPane fx:id="p" prefHeight="500.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="600.0" prefWidth="698.0" style="-fx-background-color: #21252b;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button layoutX="311.0" layoutY="289.0" mnemonicParsing="false" text="Button" />
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="698.0" style="-fx-background-color: #21252b;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button layoutX="311.0" layoutY="289.0" mnemonicParsing="false" text="Button" />
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="698.0" style="-fx-background-color: #21252b;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button layoutX="311.0" layoutY="289.0" mnemonicParsing="false" text="Button" />
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="698.0" style="-fx-background-color: #21252b;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button layoutX="311.0" layoutY="289.0" mnemonicParsing="false" text="Button" />
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="698.0" style="-fx-background-color: #21252b;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button layoutX="311.0" layoutY="289.0" mnemonicParsing="false" text="Button" />
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="698.0" style="-fx-background-color: #21252b;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button layoutX="311.0" layoutY="289.0" mnemonicParsing="false" text="Button" />
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="698.0" style="-fx-background-color: #21252b;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button layoutX="311.0" layoutY="289.0" mnemonicParsing="false" text="Button" />
+               </children>
+            </Pane>
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="698.0" style="-fx-background-color: #21252b;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Button layoutX="311.0" layoutY="289.0" mnemonicParsing="false" text="Button" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
