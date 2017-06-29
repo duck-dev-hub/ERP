@@ -24,6 +24,7 @@ public class MainController {
 		painel3.setVisible(true);
 		
 		
+		
 	}
 	
 	
