@@ -11,6 +11,7 @@ Este sistema canalizará todas as informações em forma de relatórios mensais 
 ### Como será desenvolvidos
 ### Investimento
 ### O que será esperado
+O que se espera visualmente é um sistemas com baseado na imagem abaixo. Apesar da diferença dos sistemas, a visualização não será 100% parecida com o imagem abaixo.
 
 
 <img src="https://github.com/rafaelcarvalhocaetano/ERP/blob/master/ERP-RRVH/src/img/imagem.png">
